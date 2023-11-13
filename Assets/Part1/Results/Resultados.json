@@ -1,0 +1,734 @@
+{
+    "Top3PlayersByPoints": [
+        {
+            "id": 488,
+            "name": "Abbie Runolfsson",
+            "points": 9994,
+            "countryIndex": 17,
+            "platformName": "XBOX",
+            "countryName": "Chile",
+            "heroes": [
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 91283945
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 50508819
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 34586097
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 18600152
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 51956543
+                }
+            ]
+        },
+        {
+            "id": 816,
+            "name": "Katrina Romaguera",
+            "points": 9985,
+            "countryIndex": 30,
+            "platformName": "PC",
+            "countryName": "Finland",
+            "heroes": [
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 39184661
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 68848729
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 86418147
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 22910653
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 25373930
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 43179644
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 62950809
+                }
+            ]
+        },
+        {
+            "id": 498,
+            "name": "Bruce Schuster",
+            "points": 9965,
+            "countryIndex": 56,
+            "platformName": "PSN",
+            "countryName": "Liechtenstein",
+            "heroes": [
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 69435564
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 41136733
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 28356034
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 7718399
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 82013769
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 43126263
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 95906767
+                }
+            ]
+        }
+    ],
+    "PlayersWithoutHeroesByCountry": [
+        {
+            "id": 406,
+            "name": "Antonio Wisoky",
+            "points": 3389,
+            "countryIndex": 7,
+            "platformName": "PC",
+            "countryName": "Azerbaijan",
+            "heroes": []
+        },
+        {
+            "id": 714,
+            "name": "Hilario Braun",
+            "points": 6018,
+            "countryIndex": 7,
+            "platformName": "PSN",
+            "countryName": "Azerbaijan",
+            "heroes": []
+        },
+        {
+            "id": 323,
+            "name": "Ulises Jones",
+            "points": 2537,
+            "countryIndex": 11,
+            "platformName": "PC",
+            "countryName": "Belgium",
+            "heroes": []
+        },
+        {
+            "id": 668,
+            "name": "Joanne Huels",
+            "points": 199,
+            "countryIndex": 33,
+            "platformName": "PC",
+            "countryName": "Germany",
+            "heroes": []
+        },
+        {
+            "id": 674,
+            "name": "Raymundo Fritsch",
+            "points": 8456,
+            "countryIndex": 63,
+            "platformName": "PC",
+            "countryName": "Malta",
+            "heroes": []
+        },
+        {
+            "id": 551,
+            "name": "Scarlett Nitzsche",
+            "points": 1622,
+            "countryIndex": 66,
+            "platformName": "PSN",
+            "countryName": "Monaco",
+            "heroes": []
+        },
+        {
+            "id": 269,
+            "name": "Efren Jerde",
+            "points": 1543,
+            "countryIndex": 70,
+            "platformName": "PC",
+            "countryName": "Mozambique",
+            "heroes": []
+        },
+        {
+            "id": 336,
+            "name": "Blanca Mayer",
+            "points": 5347,
+            "countryIndex": 72,
+            "platformName": "PC",
+            "countryName": "Netherlands",
+            "heroes": []
+        },
+        {
+            "id": 515,
+            "name": "Elmer Kautzer",
+            "points": 5102,
+            "countryIndex": 83,
+            "platformName": "XBOX",
+            "countryName": "Poland",
+            "heroes": []
+        },
+        {
+            "id": 225,
+            "name": "Eleanora Davis",
+            "points": 6529,
+            "countryIndex": 95,
+            "platformName": "XBOX",
+            "countryName": "Slovenia",
+            "heroes": []
+        },
+        {
+            "id": 917,
+            "name": "Chelsea Kohler",
+            "points": 6363,
+            "countryIndex": 100,
+            "platformName": "PSN",
+            "countryName": "Sweden",
+            "heroes": []
+        },
+        {
+            "id": 959,
+            "name": "Reymundo Krajcik",
+            "points": 6451,
+            "countryIndex": 100,
+            "platformName": "PSN",
+            "countryName": "Sweden",
+            "heroes": []
+        },
+        {
+            "id": 328,
+            "name": "Shanna Kunze",
+            "points": 4927,
+            "countryIndex": 111,
+            "platformName": "PSN",
+            "countryName": "United States of America",
+            "heroes": []
+        }
+    ],
+    "MostCreatedHeroClass": "Monk",
+    "LeastCreatedHeroClass": "Wizard",
+    "CountryWithMostPlayers": "Denmark",
+    "BestPlatformByAveragePoints": "PC",
+    "Top10PlayersByTotalGold": [
+        {
+            "id": 951,
+            "name": "Hester McKenzie",
+            "points": 2361,
+            "countryIndex": 96,
+            "platformName": "XBOX",
+            "countryName": "South Africa",
+            "heroes": [
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 79935577
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 86548964
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 63328432
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 88303712
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 54092618
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 97282554
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 90790427
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 94756499
+                }
+            ]
+        },
+        {
+            "id": 414,
+            "name": "Jamil O'Conner",
+            "points": 9510,
+            "countryIndex": 11,
+            "platformName": "PC",
+            "countryName": "Belgium",
+            "heroes": [
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 92064206
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 67143631
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 77659485
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 75740937
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 93395039
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 85385256
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 94897565
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 27098818
+                }
+            ]
+        },
+        {
+            "id": 243,
+            "name": "Rusty Turcotte",
+            "points": 4326,
+            "countryIndex": 113,
+            "platformName": "PC",
+            "countryName": "Uruguay",
+            "heroes": [
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 94693663
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 93389637
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 50507444
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 67065686
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 37591746
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 94965489
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 65639398
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 74193526
+                }
+            ]
+        },
+        {
+            "id": 569,
+            "name": "Ova Purdy",
+            "points": 5830,
+            "countryIndex": 6,
+            "platformName": "PSN",
+            "countryName": "Austria",
+            "heroes": [
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 86784920
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 78294809
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 85402155
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 88796331
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 78181026
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 53973071
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 94100478
+                }
+            ]
+        },
+        {
+            "id": 552,
+            "name": "Chyna Dicki",
+            "points": 5261,
+            "countryIndex": 40,
+            "platformName": "XBOX",
+            "countryName": "India",
+            "heroes": [
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 99801976
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 89763739
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 6305779
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 71493990
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 96106966
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 93883051
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 37076977
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 59267221
+                }
+            ]
+        },
+        {
+            "id": 629,
+            "name": "Neva Padberg",
+            "points": 3822,
+            "countryIndex": 15,
+            "platformName": "PC",
+            "countryName": "Bulgaria",
+            "heroes": [
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 82948650
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 80575938
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 49951074
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 92739957
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 89803926
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 58155233
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 95309108
+                }
+            ]
+        },
+        {
+            "id": 154,
+            "name": "Maurine Tillman",
+            "points": 7060,
+            "countryIndex": 1,
+            "platformName": "PSN",
+            "countryName": "Albania",
+            "heroes": [
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 66394165
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 93415215
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 83463680
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 96304572
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 44112067
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 93310245
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 58858293
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Kira Beer",
+            "points": 4846,
+            "countryIndex": 32,
+            "platformName": "PC",
+            "countryName": "Georgia",
+            "heroes": [
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 70011004
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 55762747
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 84619934
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 58090180
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 84610728
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 88988593
+                },
+                {
+                    "heroClassIndex": 0,
+                    "heroClassName": "Barbarian",
+                    "gold": 51987336
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 35997573
+                }
+            ]
+        },
+        {
+            "id": 612,
+            "name": "Stuart Cronin",
+            "points": 624,
+            "countryIndex": 64,
+            "platformName": "XBOX",
+            "countryName": "Mexico",
+            "heroes": [
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 83407114
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 78715117
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 30259535
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 99345721
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 80459440
+                },
+                {
+                    "heroClassIndex": 4,
+                    "heroClassName": "Necromancer",
+                    "gold": 58344001
+                },
+                {
+                    "heroClassIndex": 5,
+                    "heroClassName": "Witch Doctor",
+                    "gold": 93327734
+                }
+            ]
+        },
+        {
+            "id": 542,
+            "name": "Erik Windler",
+            "points": 7070,
+            "countryIndex": 114,
+            "platformName": "PC",
+            "countryName": "Venezuela",
+            "heroes": [
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 45080160
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 71565455
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 86230275
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 28079173
+                },
+                {
+                    "heroClassIndex": 2,
+                    "heroClassName": "Demon Hunter",
+                    "gold": 97149014
+                },
+                {
+                    "heroClassIndex": 6,
+                    "heroClassName": "Wizard",
+                    "gold": 83192417
+                },
+                {
+                    "heroClassIndex": 3,
+                    "heroClassName": "Monk",
+                    "gold": 21863677
+                },
+                {
+                    "heroClassIndex": 1,
+                    "heroClassName": "Crusader",
+                    "gold": 85004012
+                }
+            ]
+        }
+    ]
+}
