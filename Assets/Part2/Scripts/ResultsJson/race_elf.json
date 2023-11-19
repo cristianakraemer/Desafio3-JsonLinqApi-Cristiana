@@ -1,0 +1,31 @@
+{
+    "index": "elf",
+    "name": "Elf",
+    "url": "/api/races/elf",
+    "traits": [
+        {
+            "index": "darkvision",
+            "name": "Darkvision",
+            "url": "/api/traits/darkvision",
+            "desc": []
+        },
+        {
+            "index": "fey-ancestry",
+            "name": "Fey Ancestry",
+            "url": "/api/traits/fey-ancestry",
+            "desc": []
+        },
+        {
+            "index": "trance",
+            "name": "Trance",
+            "url": "/api/traits/trance",
+            "desc": []
+        },
+        {
+            "index": "keen-senses",
+            "name": "Keen Senses",
+            "url": "/api/traits/keen-senses",
+            "desc": []
+        }
+    ]
+}

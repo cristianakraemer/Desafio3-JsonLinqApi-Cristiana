@@ -61,7 +61,7 @@ public class GameController : MonoBehaviour
         StartCoroutine(client.GetEquipment("", GenericApiResponse));
         StartCoroutine(client.GetProficiencies("", GenericApiResponse));
         StartCoroutine(client.GetAlignment("", GenericApiResponse));
-        StartCoroutine(client.GetWeapon("", GenericApiResponse));
+        StartCoroutine(client.GetWeapon1("", GenericApiResponse));
 
         // Serve para aparecer os resultados no TMP_Dropdown.
         LoadClasses();
@@ -194,7 +194,7 @@ public class GameController : MonoBehaviour
 
      protected void LoadWeapon() // Para aparecer os resultados no TMP_Dropdown
     {
-         StartCoroutine(client.GetWeapon("", (data) => {
+         StartCoroutine(client.GetWeapon1("", (data) => {
              var list = GenericParseData<ResourceListDTO<WeaponProperty>>(data);
              weapon = list.results;
              List<TMP_Dropdown.OptionData> options = new();

@@ -1,0 +1,38 @@
+{
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/classes/fighter",
+    "starting_equipment": [],
+    "proficiencies": [
+        {
+            "index": "all-armor",
+            "name": "All armor",
+            "url": "/api/proficiencies/all-armor"
+        },
+        {
+            "index": "shields",
+            "name": "Shields",
+            "url": "/api/proficiencies/shields"
+        },
+        {
+            "index": "simple-weapons",
+            "name": "Simple Weapons",
+            "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+            "index": "martial-weapons",
+            "name": "Martial Weapons",
+            "url": "/api/proficiencies/martial-weapons"
+        },
+        {
+            "index": "saving-throw-str",
+            "name": "Saving Throw: STR",
+            "url": "/api/proficiencies/saving-throw-str"
+        },
+        {
+            "index": "saving-throw-con",
+            "name": "Saving Throw: CON",
+            "url": "/api/proficiencies/saving-throw-con"
+        }
+    ]
+}

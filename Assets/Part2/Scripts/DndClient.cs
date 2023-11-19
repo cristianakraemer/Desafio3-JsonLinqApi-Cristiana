@@ -52,11 +52,17 @@ public class DndClient : ApiClient
         return Dispatch(req, callback);
     }
 
-     public IEnumerator GetWeapon(string index, Action<string> callback)
+     public IEnumerator GetWeapon1(string index, Action<string> callback)
      {
-         var req = UnityWebRequest.Get($"{BaseUrl}/api/weapon-properties{index}");
+         var req = UnityWebRequest.Get($"{BaseUrl}/api/weapon-properties/{index}");
          return Dispatch(req, callback);
      }
+
+    public IEnumerator GetWeapon2(string index, Action<string> callback)
+    {
+        var req = UnityWebRequest.Get($"{BaseUrl}/api/equipment/{index}");
+        return Dispatch(req, callback);
+    }
 
     public IEnumerator GetDamageType(string index, Action<string> callback)
     {

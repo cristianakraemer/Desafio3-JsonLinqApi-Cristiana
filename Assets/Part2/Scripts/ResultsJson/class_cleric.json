@@ -1,0 +1,61 @@
+{
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/classes/cleric",
+    "starting_equipment": [
+        {
+            "quantity": 1,
+            "equipment": {
+                "index": "shield",
+                "name": "Shield",
+                "url": "/api/equipment/shield",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        }
+    ],
+    "proficiencies": [
+        {
+            "index": "light-armor",
+            "name": "Light Armor",
+            "url": "/api/proficiencies/light-armor"
+        },
+        {
+            "index": "medium-armor",
+            "name": "Medium Armor",
+            "url": "/api/proficiencies/medium-armor"
+        },
+        {
+            "index": "shields",
+            "name": "Shields",
+            "url": "/api/proficiencies/shields"
+        },
+        {
+            "index": "simple-weapons",
+            "name": "Simple Weapons",
+            "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+            "index": "saving-throw-wis",
+            "name": "Saving Throw: WIS",
+            "url": "/api/proficiencies/saving-throw-wis"
+        },
+        {
+            "index": "saving-throw-cha",
+            "name": "Saving Throw: CHA",
+            "url": "/api/proficiencies/saving-throw-cha"
+        }
+    ]
+}

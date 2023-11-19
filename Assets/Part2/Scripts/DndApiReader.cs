@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using API_DND;
 using System.Linq;
+using System.IO;
 using static Unity.VisualScripting.Icons;
 using static UnityEngine.EventSystems.EventTrigger;
 using static UnityEngine.UI.GridLayoutGroup;
@@ -10,6 +11,7 @@ using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEditor.SceneManagement;
 using UnityEngine.XR;
+using UnityEngine.Networking;
 
 public class DndApiReader : MonoBehaviour
 {
@@ -21,13 +23,15 @@ public class DndApiReader : MonoBehaviour
     public Damage_Type[] damage;
     public ProficiencyDTO[] proficiencies;
     public AlignmentDTO[] alignment;
-    public WeaponProperty[] weapons;
+    public WeaponDTO[] weapons;
+    public WeaponProperty[] weaponProperties;
 
     private DndClient dndClient;
 
     private void Start()
     {
         dndClient = new DndClient();
+
         StartCoroutine(GetClasses(new string[] { "barbarian", "bard", "cleric", "druid", "fighter", "monk", "paladin", "ranger", "rogue", "sorcerer", "warlock", "wizard" }));
         StartCoroutine(GetRaces(new string[] { "dragonborn", "dwarf", "elf", "gnome", "half-elf", "half-orc", "halfling", "human", "tiefling" }));
         StartCoroutine(GetAbilityScores(new string[] { "cha", "con", "dex", "int", "str", "wis" }));
@@ -40,8 +44,10 @@ public class DndApiReader : MonoBehaviour
         StartCoroutine(GetProficiencies(new string[] { "alchemists-supplies", "all-armor", "bagpipes", "battleaxes", "blowguns", "breastplate", "brewers-supplies", "chain-mail", "chain-shirt", "clubs" }));
         StartCoroutine(GetAlignment(new string[] { "chaotic-neutral", "chaotic-evil", "chaotic-good", "lawful-neutral", "lawful-evil", "lawful-good", "neutral", "neutral-evil", "neutral-good" }));
         StartCoroutine(GetDamageTypes(new string[] { "acid", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder" }));
-        StartCoroutine(GetWeapons(new string[] { "" }));
+        StartCoroutine(GetWeapons1(new string[] { "ammunition", "finesse", "heavy", "light", "loading", "monk", "reach", "special", "thrown", "two-handed", "versatile" }));
+        StartCoroutine(GetWeapons2(new string[] { "club" }));
     }
+    
     IEnumerator GetClasses(string[] classNames)
     {
         foreach (string className in classNames)
@@ -49,6 +55,7 @@ public class DndApiReader : MonoBehaviour
             yield return StartCoroutine(dndClient.GetClasses(className, (response) =>
             {
                 var classData = JsonUtility.FromJson<ClassesDTO>(response);
+                SaveJsonToFile(classData, $"class_{className}.json");
                 if (classes == null)
                     classes = new ClassesDTO[] { classData };
                 else
@@ -56,6 +63,7 @@ public class DndApiReader : MonoBehaviour
             }));
         }
     }
+
     IEnumerator GetRaces(string[] raceNames)
     {
         foreach (string raceName in raceNames)
@@ -63,6 +71,7 @@ public class DndApiReader : MonoBehaviour
             yield return StartCoroutine(dndClient.GetRaces(raceName, (response) =>
             {
                 var raceData = JsonUtility.FromJson<RaceDTO>(response);
+                SaveJsonToFile(raceData, $"race_{raceName}.json");
                 if (races == null)
                     races = new RaceDTO[] { raceData };
                 else
@@ -70,6 +79,7 @@ public class DndApiReader : MonoBehaviour
             }));
         }
     }
+
     IEnumerator GetAbilityScores(string[] abilityScoreNames)
     {
         foreach (string abilityScoreName in abilityScoreNames)
@@ -77,6 +87,7 @@ public class DndApiReader : MonoBehaviour
             yield return StartCoroutine(dndClient.GetAbilityScore(abilityScoreName, (response) =>
             {
                 var abilityScoreData = JsonUtility.FromJson<AbilityScoreDTO>(response);
+                SaveJsonToFile(abilityScoreData, $"ability_{abilityScoreName}.json");
                 if (abilityScore == null)
                     abilityScore = new AbilityScoreDTO[] { abilityScoreData };
                 else
@@ -84,6 +95,7 @@ public class DndApiReader : MonoBehaviour
             }));
         }
     }
+
     IEnumerator GetTraits(string[] traitNames)
     {
         foreach (string traitName in traitNames)
@@ -98,6 +110,7 @@ public class DndApiReader : MonoBehaviour
             }));
         }
     }
+
     IEnumerator GetEquipment(string[] equipmentNames)
     {
         foreach (string equipmentName in equipmentNames)
@@ -112,6 +125,7 @@ public class DndApiReader : MonoBehaviour
             }));
         }
     }
+
     IEnumerator GetProficiencies(string[] proficiencyNames)
     {
         foreach (string proficiencyName in proficiencyNames)
@@ -126,6 +140,7 @@ public class DndApiReader : MonoBehaviour
             }));
         }
     }
+
     IEnumerator GetAlignment(string[] alignmentNames)
     {
         foreach (string alignmentName in alignmentNames)
@@ -156,20 +171,42 @@ public class DndApiReader : MonoBehaviour
         }
     }
 
-    IEnumerator GetWeapons(string[] weaponNames)
+    IEnumerator GetWeapons1(string[] weaponNames)
     {
         foreach (string weaponName in weaponNames)
         {
-            yield return StartCoroutine(dndClient.GetWeapon(weaponName, (response) =>
+            yield return StartCoroutine(dndClient.GetWeapon1(weaponName, (response) =>
             {
                 var weaponData = JsonUtility.FromJson<WeaponProperty>(response);
-
-                if (weapons == null)
-                    weapons = new WeaponProperty[] { weaponData };
+                SaveJsonToFile(weaponData, $"weapon1_{weaponName}.json");
+                if (weaponProperties == null)
+                    weaponProperties = new WeaponProperty[] { weaponData };
                 else
-                    weapons = weapons.Concat(new WeaponProperty[] { weaponData }).ToArray();
+                    weaponProperties = weaponProperties.Concat(new WeaponProperty[] { weaponData }).ToArray();
             }));
         }
     }
 
+    IEnumerator GetWeapons2(string[] weaponNames)
+    {
+        foreach (string weaponName in weaponNames)
+        {
+            yield return StartCoroutine(dndClient.GetWeapon2(weaponName, (response) =>
+            {
+                var weaponData = JsonUtility.FromJson<WeaponDTO>(response);
+                SaveJsonToFile(weaponData, $"weapon2_{weaponName}.json");
+                if (weapons == null)
+                    weapons = new WeaponDTO[] { weaponData };
+                else
+                    weapons = weapons.Concat(new WeaponDTO[] { weaponData }).ToArray();
+            }));
+        }
+    }
+
+    private void SaveJsonToFile(object data, string fileName)
+    {
+        string path = Application.dataPath + "/Part2/Scripts/ResultsJson/" + fileName;
+        string formattedJson = JsonUtility.ToJson(data, true);
+        File.WriteAllText(path, formattedJson);
+    }
 }

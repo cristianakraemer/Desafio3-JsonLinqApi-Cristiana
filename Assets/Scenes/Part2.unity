@@ -1913,6 +1913,14 @@ MonoBehaviour:
   dropdownProficiencies: {fileID: 1087756099}
   dropdownAlignment: {fileID: 319487471}
   dropdownWeapon: {fileID: 639031795}
+  classes: []
+  races: []
+  abilityScore: []
+  traits: []
+  equipment: []
+  proficiencies: []
+  alignment: []
+  weapon: []
 --- !u!114 &419682554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1930,6 +1938,7 @@ MonoBehaviour:
   abilityScore: []
   traits: []
   equipment: []
+  damage: []
   proficiencies: []
   alignment: []
   weapons: []

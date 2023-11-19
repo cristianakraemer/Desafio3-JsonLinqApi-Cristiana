@@ -1,0 +1,25 @@
+{
+    "index": "halfling",
+    "name": "Halfling",
+    "url": "/api/races/halfling",
+    "traits": [
+        {
+            "index": "brave",
+            "name": "Brave",
+            "url": "/api/traits/brave",
+            "desc": []
+        },
+        {
+            "index": "halfling-nimbleness",
+            "name": "Halfling Nimbleness",
+            "url": "/api/traits/halfling-nimbleness",
+            "desc": []
+        },
+        {
+            "index": "lucky",
+            "name": "Lucky",
+            "url": "/api/traits/lucky",
+            "desc": []
+        }
+    ]
+}

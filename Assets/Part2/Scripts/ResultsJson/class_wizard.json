@@ -1,0 +1,66 @@
+{
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/classes/wizard",
+    "starting_equipment": [
+        {
+            "quantity": 1,
+            "equipment": {
+                "index": "spellbook",
+                "name": "Spellbook",
+                "url": "/api/equipment/spellbook",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        }
+    ],
+    "proficiencies": [
+        {
+            "index": "daggers",
+            "name": "Daggers",
+            "url": "/api/proficiencies/daggers"
+        },
+        {
+            "index": "darts",
+            "name": "Darts",
+            "url": "/api/proficiencies/darts"
+        },
+        {
+            "index": "slings",
+            "name": "Slings",
+            "url": "/api/proficiencies/slings"
+        },
+        {
+            "index": "quarterstaffs",
+            "name": "Quarterstaffs",
+            "url": "/api/proficiencies/quarterstaffs"
+        },
+        {
+            "index": "crossbows-light",
+            "name": "Crossbows, light",
+            "url": "/api/proficiencies/crossbows-light"
+        },
+        {
+            "index": "saving-throw-int",
+            "name": "Saving Throw: INT",
+            "url": "/api/proficiencies/saving-throw-int"
+        },
+        {
+            "index": "saving-throw-wis",
+            "name": "Saving Throw: WIS",
+            "url": "/api/proficiencies/saving-throw-wis"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/classes/barbarian",
+    "starting_equipment": [
+        {
+            "quantity": 1,
+            "equipment": {
+                "index": "explorers-pack",
+                "name": "Explorer's Pack",
+                "url": "/api/equipment/explorers-pack",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        },
+        {
+            "quantity": 4,
+            "equipment": {
+                "index": "javelin",
+                "name": "Javelin",
+                "url": "/api/equipment/javelin",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        }
+    ],
+    "proficiencies": [
+        {
+            "index": "light-armor",
+            "name": "Light Armor",
+            "url": "/api/proficiencies/light-armor"
+        },
+        {
+            "index": "medium-armor",
+            "name": "Medium Armor",
+            "url": "/api/proficiencies/medium-armor"
+        },
+        {
+            "index": "shields",
+            "name": "Shields",
+            "url": "/api/proficiencies/shields"
+        },
+        {
+            "index": "simple-weapons",
+            "name": "Simple Weapons",
+            "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+            "index": "martial-weapons",
+            "name": "Martial Weapons",
+            "url": "/api/proficiencies/martial-weapons"
+        },
+        {
+            "index": "saving-throw-str",
+            "name": "Saving Throw: STR",
+            "url": "/api/proficiencies/saving-throw-str"
+        },
+        {
+            "index": "saving-throw-con",
+            "name": "Saving Throw: CON",
+            "url": "/api/proficiencies/saving-throw-con"
+        }
+    ]
+}

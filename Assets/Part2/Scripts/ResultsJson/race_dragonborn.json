@@ -1,0 +1,25 @@
+{
+    "index": "dragonborn",
+    "name": "Dragonborn",
+    "url": "/api/races/dragonborn",
+    "traits": [
+        {
+            "index": "draconic-ancestry",
+            "name": "Draconic Ancestry",
+            "url": "/api/traits/draconic-ancestry",
+            "desc": []
+        },
+        {
+            "index": "breath-weapon",
+            "name": "Breath Weapon",
+            "url": "/api/traits/breath-weapon",
+            "desc": []
+        },
+        {
+            "index": "damage-resistance",
+            "name": "Damage Resistance",
+            "url": "/api/traits/damage-resistance",
+            "desc": []
+        }
+    ]
+}

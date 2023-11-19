@@ -1,0 +1,88 @@
+{
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/classes/ranger",
+    "starting_equipment": [
+        {
+            "quantity": 1,
+            "equipment": {
+                "index": "longbow",
+                "name": "Longbow",
+                "url": "/api/equipment/longbow",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        },
+        {
+            "quantity": 20,
+            "equipment": {
+                "index": "arrow",
+                "name": "Arrow",
+                "url": "/api/equipment/arrow",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        }
+    ],
+    "proficiencies": [
+        {
+            "index": "light-armor",
+            "name": "Light Armor",
+            "url": "/api/proficiencies/light-armor"
+        },
+        {
+            "index": "medium-armor",
+            "name": "Medium Armor",
+            "url": "/api/proficiencies/medium-armor"
+        },
+        {
+            "index": "shields",
+            "name": "Shields",
+            "url": "/api/proficiencies/shields"
+        },
+        {
+            "index": "simple-weapons",
+            "name": "Simple Weapons",
+            "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+            "index": "martial-weapons",
+            "name": "Martial Weapons",
+            "url": "/api/proficiencies/martial-weapons"
+        },
+        {
+            "index": "saving-throw-dex",
+            "name": "Saving Throw: DEX",
+            "url": "/api/proficiencies/saving-throw-dex"
+        },
+        {
+            "index": "saving-throw-str",
+            "name": "Saving Throw: STR",
+            "url": "/api/proficiencies/saving-throw-str"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/classes/bard",
+    "starting_equipment": [
+        {
+            "quantity": 1,
+            "equipment": {
+                "index": "leather-armor",
+                "name": "Leather Armor",
+                "url": "/api/equipment/leather-armor",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        },
+        {
+            "quantity": 1,
+            "equipment": {
+                "index": "dagger",
+                "name": "Dagger",
+                "url": "/api/equipment/dagger",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        }
+    ],
+    "proficiencies": [
+        {
+            "index": "light-armor",
+            "name": "Light Armor",
+            "url": "/api/proficiencies/light-armor"
+        },
+        {
+            "index": "simple-weapons",
+            "name": "Simple Weapons",
+            "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+            "index": "longswords",
+            "name": "Longswords",
+            "url": "/api/proficiencies/longswords"
+        },
+        {
+            "index": "rapiers",
+            "name": "Rapiers",
+            "url": "/api/proficiencies/rapiers"
+        },
+        {
+            "index": "shortswords",
+            "name": "Shortswords",
+            "url": "/api/proficiencies/shortswords"
+        },
+        {
+            "index": "hand-crossbows",
+            "name": "Hand crossbows",
+            "url": "/api/proficiencies/hand-crossbows"
+        },
+        {
+            "index": "saving-throw-dex",
+            "name": "Saving Throw: DEX",
+            "url": "/api/proficiencies/saving-throw-dex"
+        },
+        {
+            "index": "saving-throw-cha",
+            "name": "Saving Throw: CHA",
+            "url": "/api/proficiencies/saving-throw-cha"
+        }
+    ]
+}

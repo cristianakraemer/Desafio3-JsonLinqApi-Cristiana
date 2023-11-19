@@ -1,0 +1,133 @@
+{
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/classes/druid",
+    "starting_equipment": [
+        {
+            "quantity": 1,
+            "equipment": {
+                "index": "leather-armor",
+                "name": "Leather Armor",
+                "url": "/api/equipment/leather-armor",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        },
+        {
+            "quantity": 1,
+            "equipment": {
+                "index": "explorers-pack",
+                "name": "Explorer's Pack",
+                "url": "/api/equipment/explorers-pack",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        }
+    ],
+    "proficiencies": [
+        {
+            "index": "light-armor",
+            "name": "Light Armor",
+            "url": "/api/proficiencies/light-armor"
+        },
+        {
+            "index": "medium-armor",
+            "name": "Medium Armor",
+            "url": "/api/proficiencies/medium-armor"
+        },
+        {
+            "index": "shields",
+            "name": "Shields",
+            "url": "/api/proficiencies/shields"
+        },
+        {
+            "index": "clubs",
+            "name": "Clubs",
+            "url": "/api/proficiencies/clubs"
+        },
+        {
+            "index": "daggers",
+            "name": "Daggers",
+            "url": "/api/proficiencies/daggers"
+        },
+        {
+            "index": "javelins",
+            "name": "Javelins",
+            "url": "/api/proficiencies/javelins"
+        },
+        {
+            "index": "maces",
+            "name": "Maces",
+            "url": "/api/proficiencies/maces"
+        },
+        {
+            "index": "quarterstaffs",
+            "name": "Quarterstaffs",
+            "url": "/api/proficiencies/quarterstaffs"
+        },
+        {
+            "index": "sickles",
+            "name": "Sickles",
+            "url": "/api/proficiencies/sickles"
+        },
+        {
+            "index": "spears",
+            "name": "Spears",
+            "url": "/api/proficiencies/spears"
+        },
+        {
+            "index": "darts",
+            "name": "Darts",
+            "url": "/api/proficiencies/darts"
+        },
+        {
+            "index": "slings",
+            "name": "Slings",
+            "url": "/api/proficiencies/slings"
+        },
+        {
+            "index": "scimitars",
+            "name": "Scimitars",
+            "url": "/api/proficiencies/scimitars"
+        },
+        {
+            "index": "herbalism-kit",
+            "name": "Herbalism Kit",
+            "url": "/api/proficiencies/herbalism-kit"
+        },
+        {
+            "index": "saving-throw-int",
+            "name": "Saving Throw: INT",
+            "url": "/api/proficiencies/saving-throw-int"
+        },
+        {
+            "index": "saving-throw-wis",
+            "name": "Saving Throw: WIS",
+            "url": "/api/proficiencies/saving-throw-wis"
+        }
+    ]
+}

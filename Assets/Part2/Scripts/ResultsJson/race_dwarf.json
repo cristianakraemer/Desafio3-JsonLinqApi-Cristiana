@@ -1,0 +1,37 @@
+{
+    "index": "dwarf",
+    "name": "Dwarf",
+    "url": "/api/races/dwarf",
+    "traits": [
+        {
+            "index": "darkvision",
+            "name": "Darkvision",
+            "url": "/api/traits/darkvision",
+            "desc": []
+        },
+        {
+            "index": "dwarven-resilience",
+            "name": "Dwarven Resilience",
+            "url": "/api/traits/dwarven-resilience",
+            "desc": []
+        },
+        {
+            "index": "stonecunning",
+            "name": "Stonecunning",
+            "url": "/api/traits/stonecunning",
+            "desc": []
+        },
+        {
+            "index": "dwarven-combat-training",
+            "name": "Dwarven Combat Training",
+            "url": "/api/traits/dwarven-combat-training",
+            "desc": []
+        },
+        {
+            "index": "tool-proficiency",
+            "name": "Tool Proficiency",
+            "url": "/api/traits/tool-proficiency",
+            "desc": []
+        }
+    ]
+}

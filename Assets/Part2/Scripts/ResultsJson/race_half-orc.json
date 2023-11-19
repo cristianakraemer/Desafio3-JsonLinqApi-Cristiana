@@ -1,0 +1,31 @@
+{
+    "index": "half-orc",
+    "name": "Half-Orc",
+    "url": "/api/races/half-orc",
+    "traits": [
+        {
+            "index": "darkvision",
+            "name": "Darkvision",
+            "url": "/api/traits/darkvision",
+            "desc": []
+        },
+        {
+            "index": "savage-attacks",
+            "name": "Savage Attacks",
+            "url": "/api/traits/savage-attacks",
+            "desc": []
+        },
+        {
+            "index": "relentless-endurance",
+            "name": "Relentless Endurance",
+            "url": "/api/traits/relentless-endurance",
+            "desc": []
+        },
+        {
+            "index": "menacing",
+            "name": "Menacing",
+            "url": "/api/traits/menacing",
+            "desc": []
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "index": "gnome",
+    "name": "Gnome",
+    "url": "/api/races/gnome",
+    "traits": [
+        {
+            "index": "darkvision",
+            "name": "Darkvision",
+            "url": "/api/traits/darkvision",
+            "desc": []
+        },
+        {
+            "index": "gnome-cunning",
+            "name": "Gnome Cunning",
+            "url": "/api/traits/gnome-cunning",
+            "desc": []
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "index": "tiefling",
+    "name": "Tiefling",
+    "url": "/api/races/tiefling",
+    "traits": [
+        {
+            "index": "darkvision",
+            "name": "Darkvision",
+            "url": "/api/traits/darkvision",
+            "desc": []
+        },
+        {
+            "index": "hellish-resistance",
+            "name": "Hellish Resistance",
+            "url": "/api/traits/hellish-resistance",
+            "desc": []
+        },
+        {
+            "index": "infernal-legacy",
+            "name": "Infernal Legacy",
+            "url": "/api/traits/infernal-legacy",
+            "desc": []
+        }
+    ]
+}

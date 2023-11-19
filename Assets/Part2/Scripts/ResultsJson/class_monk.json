@@ -1,0 +1,51 @@
+{
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/classes/monk",
+    "starting_equipment": [
+        {
+            "quantity": 10,
+            "equipment": {
+                "index": "dart",
+                "name": "Dart",
+                "url": "/api/equipment/dart",
+                "desc": "",
+                "damage": {
+                    "damage_dice": "",
+                    "damage_type": {
+                        "index": "",
+                        "name": "",
+                        "url": ""
+                    }
+                },
+                "range": {
+                    "normal": 0.0,
+                    "Long": 0.0
+                },
+                "weight": 0.0
+            }
+        }
+    ],
+    "proficiencies": [
+        {
+            "index": "simple-weapons",
+            "name": "Simple Weapons",
+            "url": "/api/proficiencies/simple-weapons"
+        },
+        {
+            "index": "shortswords",
+            "name": "Shortswords",
+            "url": "/api/proficiencies/shortswords"
+        },
+        {
+            "index": "saving-throw-dex",
+            "name": "Saving Throw: DEX",
+            "url": "/api/proficiencies/saving-throw-dex"
+        },
+        {
+            "index": "saving-throw-str",
+            "name": "Saving Throw: STR",
+            "url": "/api/proficiencies/saving-throw-str"
+        }
+    ]
+}

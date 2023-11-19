@@ -1,0 +1,25 @@
+{
+    "index": "half-elf",
+    "name": "Half-Elf",
+    "url": "/api/races/half-elf",
+    "traits": [
+        {
+            "index": "darkvision",
+            "name": "Darkvision",
+            "url": "/api/traits/darkvision",
+            "desc": []
+        },
+        {
+            "index": "fey-ancestry",
+            "name": "Fey Ancestry",
+            "url": "/api/traits/fey-ancestry",
+            "desc": []
+        },
+        {
+            "index": "skill-versatility",
+            "name": "Skill Versatility",
+            "url": "/api/traits/skill-versatility",
+            "desc": []
+        }
+    ]
+}
